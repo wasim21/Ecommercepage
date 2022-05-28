@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar-image {
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "Palatino";
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 12px;
+    text-align: center;
+
+}
+
+.Banner-section {
+    background-image: url("https://res.cloudinary.com/dnlu8gmfm/image/upload/v1650707150/istockphoto-1294603953-612x612_p28sgo.jpg");
+    height: 40vh;
+    background-size: cover;
+
+}
+
+.sidebanner {
+    border-width: 12px;
+    border-color: grey;
+    color: white;
+    border-style: solid;
+    width: 50vw;
+    padding: 12px;
+
+}
+
+.heading-firstsec {
+    font-size: 14px;
+    color: white;
+}
+
+.para-firstsec {
+    font-size: 10px;
+    color: white;
+
+}
+
+.banner-heading {
+    font-family: "Brush Script MT";
+    font-size: 30px;
+
+}
+
+.banner-para {
+    font-family: "Didot";
+    font-weight: bold;
+}
+
+.latest_nw {
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+.favourite-place-bg-container {
+    background-color: grey;
+    width: 250px;
+    height: 500px;
+}
+
+.favourite-places-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.favourite-place-card-container {
+
+    background-color: white;
+    border-radius: 8px;
+    width: 200px;
+    margin-bottom: 15px;
+    margin: 8px;
+    padding: 7px;
+
+}
+
+.favourite-place-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.favourite-place-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.favourite-place-card-image {
+    width: 80px;
+    height: 100px;
+}
+
+.favourite-place-card-text-container {
+    margin-right: 15px;
+}
+
+.allignment-text {
+    margin: 20px;
+}
+
+.custom-button {
+    color: #1a1918;
+    border-radius: 20px;
+    font-family: "Didot";
+}
+
+.title-bg {
+    background-color: #797c82;
+}
+
+.catogary-section {
+    background-color: #fcf7f7;
+}
+
+.catogary-text {
+    font-family: "American Typewriter";
+}
+
+.cards-container {
+    text-align: center;
+}
+
+.catogary-card-image {
+    width: 100px;
+    height: 110px;
+}
+
+.catogary-section-heading {
+    font-size: 25px;
+}
+
+.catogary-section-description {
+    font-size: 15px;
+}
+
+.catogary-section-title {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "American Typewriter";
+}
+
+.wcu-section {
+    background-color: #222222;
+    font-family: "Didot";
+}
+
+.whu-image {
+    width: 80%;
+    border-radius: 18px;
+    margin: 14px;
+}
+
+.whu-heading {
+    font-size: 30px;
+    color: black;
+    margin-top: 12px;
+}
+
+.whu-para {
+    font-size: 15px;
+    color: black;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand navbar-image " href="#">ShAiKh </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link" href="#sectionWCU" id="navItem1" onclick="display('sectionWCU')">
+                        Why Choose Us?
+                    </a>
+                    <a class="nav-link" href="#sectionEM" id="navItem2" onclick="display('sectionEM')">Explore Menu</a>
+                    <a class="nav-link" href="#sectionWAS" id="navItem3">Delivery & Payment</a>
+                    <a class="nav-link" href="#" id="navItem4">Follow Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="Banner-section d-flex flex-column justify-content-start ">
+        <div class="text-start allignment-text">
+            <div class="mt-3 d-flex flex-row">
+                <div class="sidebanner col-6 col-md-6 ">
+                    <p class="banner-para">Winter Collection 2021</p>
+                    <h1 class="banner-heading mb-4">Get up to 20% Off <br />New Arrivals</h1>
+                </div>
+                <div class="ml-3 col-md-6 col-6">
+                    <h1 class="heading-firstsec">lorem ipsum dolor sir amet,<br />Consectioe adivvmsddbdg elit </h1>
+                    <p class="para-firstsec"> alivsdlsk difdv elemnet set sit ament laxcuas<br /> integer pretium utricles riswe rius condimentum <br />molediv odio elovvgv vitaai</p>
+                    <button type="button" class="btn btn-secondary custom-button" data-toggle="modal" data-target="#exampleModal">
+                        Shop Now
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- Modal -->
+            <div class="modal  fade modal-bg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header title-bg">
+                            <h5 class="modal-title " id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body title-bg">
+                            Love the Way you Lie.
+                        </div>
+                        <div class="modal-footer title-bg">
+                            <button type="button" style="background-color: #333436" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" style="background-color: #333436" class="btn btn-secondary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionEM">
+        <div class="catogary-section pt-3">
+            <div class="container-fluid ">
+                <div class="catogary-text d-flex flex-row col-12 ">
+                    <div class="col-md-6 ">
+                        <h1 class=" catogary-section-heading">Welcome to our WEBSITE!</h1>
+                        <hr style="width:70%; text-align:left; background-color:green; border-style: inset; border-width: 5px; margin-left:0">
+                        <p class="catogary-section-description">
+                            We sell both original brands and classic versions of famous fashion items.
+                        </p>
+                        <p>this is preofressional html/css layuot provided by templateMo.com for free of change.<br /> YOu can use the tempplete for any purpose.</p>
+                        <p>lorem iplus dolor st ament ,comsetum adisoinh elit. Aluaun a justo dolor.duis in incindent iorem.<br /> Noem et tenos nuis .vel .morbi lustus ullanrgrg feels ,non gravida newqeq
+                            convv sit amit.</p>
+                        <ul style="list-style-type:square">
+                            <li>Coffee temoogg idbrf quis laorrot ,daplbus quam marus hendrent urma ,vwlt feuaaa dodlor<br /> lectud non voilt .Fusre at nisi albier .</li>
+                            <li>Tea Coffee temoogg idbrf quis laorrot ,daplbus quam marus hendrent urma ,vwlt feuaaa dodlor<br /> lectud non voilt .Fusre at nisi albier .</li>
+                        </ul>
+                    </div>
+                    <div class="favourite-place-bg-container col-md-6 ">
+                        <h1 class="latest_nw">Latest News</h1>
+                        <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionTajMahalDetailedView')">
+                            <div class="p-2">
+                                <h1 class="favourite-place-card-heading">Taj Mahal</h1>
+                                <p class="favourite-place-card-description">
+                                    If there was just one symbol to represent all of India, it would be the
+                                    Taj Mahal
+                                </p>
+                            </div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-img.png" class="favourite-place-card-image" />
+                        </div>
+                        <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionGoldenTempleDetailedView')">
+                            <div>
+                                <h1 class="favourite-place-card-heading">Golden Temple</h1>
+                                <p class="favourite-place-card-description">
+                                    Amritsar is world-famous for the beautiful and highly revered Golden
+                                    Temple
+                                </p>
+                            </div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/golden-temple-img.png" class="favourite-place-card-image" />
+                        </div>
+                        <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionGoldenTempleDetailedView')">
+                            <div>
+                                <h1 class="favourite-place-card-heading">Golden Temple</h1>
+                                <p class="favourite-place-card-description">
+                                    Amritsar is world-famous for the beautiful and highly revered Golden
+                                    Temple
+                                </p>
+                            </div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/golden-temple-img.png" class="favourite-place-card-image" />
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
